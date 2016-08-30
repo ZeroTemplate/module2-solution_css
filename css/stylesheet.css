@@ -1,0 +1,65 @@
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box;
+}
+
+.menu-item {
+    width: 23%;
+    border: 2px solid black;
+	margin:20px; 
+	padding:0;
+	overflow: hidden;
+    background-color: gray;
+    display: inline-block;
+}
+
+h1 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 175%;
+    color: black;
+    text-align: center;
+}
+
+.menu {
+	text-align: center;
+}
+
+.item-text {
+	text-align: center;
+	font-size: 125%;
+	margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 3px;
+}
+
+.item-btn {
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    margin: 0;
+}
+
+.item-chicken {
+    background-color: rgb(244, 67, 54);
+}
+
+.item-beef {
+    background-color: #4CAF50;
+}
+
+.item-sushy {
+    background-color: rgb(33, 150, 243);
+}
+
+.text {
+    clear: right;
+	padding-top: .5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: left;
+}
